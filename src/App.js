@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <h2>My Anime App</h2>
-      <h3>This is deployed!</h3>
+      <h3>This is deployed! ahahahz</h3>
     </div>
   );
 }
