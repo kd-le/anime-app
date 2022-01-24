@@ -1,11 +1,11 @@
 import React from 'react'
-import './App.css';
+import './styles/App.css';
+import Header from './components/header';
 
 const App = () => {
   return (
     <div>
-      <h2>My Anime App</h2>
-      <h3>This is deployed! ahahahz</h3>
+      <Header/>
     </div>
   );
 }
