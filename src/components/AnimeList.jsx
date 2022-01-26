@@ -11,7 +11,9 @@ const animeList = (props) => {
                         <img src={anime.images.jpg.image_url} alt="poster"/>
                         <h3>{anime.title}</h3>
                         <h4>Rank: {anime.rank}</h4>
-                        <button>View Anime</button>   
+                        <a>
+                        <button>View Anime</button> 
+                        </a>  
                     </div>
                 ))
             }   

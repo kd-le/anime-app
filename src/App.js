@@ -4,6 +4,7 @@ import Header from './components/Header';
 import AnimeList from './components/AnimeList';
 import { BASE_URL } from './globals';
 import axios from 'axios';
+import SearchSection from './components/SearchSection';
 
 
 const App = () => {
@@ -23,7 +24,10 @@ getAnimes()
   return (
     <div>
       <Header />
-      <AnimeList animes={animes}/>
+      <div>
+        <SearchSection />
+        <AnimeList animes={animes}/>
+      </div>
     </div>
   );
 }
